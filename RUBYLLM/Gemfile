@@ -1,0 +1,17 @@
+source 'https://rubygems.org'
+
+ruby '~> 3.0'
+
+gem 'httparty', '~> 0.21'
+gem 'dotenv', '~> 2.8'
+gem 'json', '~> 2.6'
+
+group :development do
+  gem 'rubocop', '~> 1.50'
+  gem 'pry', '~> 0.14'
+end
+
+group :test do
+  gem 'rspec', '~> 3.12'
+  gem 'webmock', '~> 3.18'
+end
